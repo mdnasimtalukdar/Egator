@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root {
+    --color_primary: #6c63ff;
+    --color_success: #00bf8e;
+    --color_warning: #f7c94b;
+    --color_danger:  #f75842;
+    --color_bg:      #1f2641;
+    --color_bg1:     #2e3267;
+    --color_bg2:     #424890;
+    --color_white:   #fff;
+    --color_black:   #000;
+    --color_danger_variant: rgba(247, 88, 66, 0.4);
+    --color_light: rgba(255, 255, 255, 0.7);
+    --container_width_lg: 80%;
+    --container_width_md: 90%;
+    --container_width_sm: 94%;
+    --transition: all 400ms ease;
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: var(--color_white);
+    background: var(--color_bg);
+}
+.container {
+    width: var(--container_width_lg);
+    margin: 0 auto;
+}
+section {
+    padding: 9.6rem 0;
+}
+section h2 {
+    text-align: center;
+    margin-bottom: 6.4rem;
+}
+h1, 
+h2, 
+h3, 
+h4, h5 {
+   line-height: 1.2;
+}
+h1 {
+    font-size: 3.6rem;
+}
+h2 {
+    font-size: 3.2rem;
+}
+h3 {
+    font-size: 2.2rem;
+}
+h4 {
+    font-size: 1.9rem;
+}
+a {
+    color: var(--color_white);
+}
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.btn {
+    display: inline-block;
+    background: var(--color_white);
+    color: var(--color_black);
+    padding: 1.6rem 3.2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: var(--transition);
+}
+.btn:hover {
+    background: transparent;
+    color: var(--color_white);
+    border-color: var(--color_white);
+}
+.btn_primary{
+    background: var(--color_danger);
+    color: var(--color_white);
+}
+/* Common CSS End */
+/* Navbar Start */
+nav {
+    background: transparent;
+    width: 100vw;
+    height: 8rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+.nav__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button {
+    display: none;
+}
+.nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 6.4rem;
+}
+.nav__menu a {
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+.nav__menu a:hover {
+    color: var(--color_bg2);
+}
+/* Navbar End */
