@@ -64,7 +64,9 @@ h4 {
 }
 a {
     color: var(--color_white);
+    font-size: 1.5rem;
 }
+
 img {
     width: 100%;
     display: block;
@@ -120,3 +122,23 @@ nav button {
     color: var(--color_bg2);
 }
 /* Navbar End */
+/* Header Start */
+header {
+    position: relative;
+    top: 8rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 8rem;
+}
+.header_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    align-items: center;
+    gap: 8rem;
+}
+.header_left p{
+    margin: 1.6rem 0 3.5rem;
+    font-size: 1.6rem;
+}
+/* Header End */
