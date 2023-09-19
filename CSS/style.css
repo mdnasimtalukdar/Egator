@@ -270,3 +270,53 @@ header {
   display: block;
 }
 /* Faq End */
+/* Testimonial Start */
+.testimonials__container {
+  overflow-x: hidden;
+  position: relative;
+  margin-bottom: 8rem;
+}
+.testimonial {
+  padding-top: 3.2rem;
+}
+.avatar {
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1.6rem;border: 1.6rem solid var(--color_bg1);
+}
+.testimonial__info {
+  text-align: center;
+}
+.testimonial__info h5 {
+  font-size: 2rem;
+}
+.testimonial__info small {
+  font-size: 1.3rem;
+}
+.testimonial__Body {
+  background: var(--color_primary);
+  padding: 3.2rem;
+  margin-top: 4.8rem;
+  font-size: 1.6rem;
+  position: relative;
+}
+.testimonial__Body::before {
+  content: "";
+  display: block;
+  background: linear-gradient(
+  135deg,
+  transparent, 
+  var(--color_primary),
+  var(--color_primary)
+  );
+  width: 4.8rem;
+  height: 4.8rem;
+  position: absolute;
+  left: 50%;
+  top: -2.4rem;
+  transform: rotate(45deg);
+}
+
+/* Testimonial End */

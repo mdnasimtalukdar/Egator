@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+    <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
@@ -263,6 +267,131 @@
       </div>
     </section>
     <!-- Faq End -->
+    <!-- Testiomonial Start -->
+    <section class="container testimonials__container mySwiper">
+      <h2>Students Testiomonial</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar1.jpg" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h5>Diana Ayi</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__Body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus debitis voluptatibus illum repellat! Corporis cumque voluptatem velit cupiditate libero, ex minus iusto modi at? Rem velit unde ipsa ex deleniti!
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar2.jpg" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h5>Matthew Jones</h5>
+            <small>Graphic Designer</small>
+          </div>
+          <div class="testimonial__Body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus debitis voluptatibus illum repellat! Corporis cumque voluptatem velit cupiditate libero, ex minus iusto modi at? Rem velit unde ipsa ex deleniti!
+            </p>
+          </div>
+        </article>
+
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar3.jpg" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h5>Justin Clarck</h5>
+            <small>Web Designer</small>
+          </div>
+          <div class="testimonial__Body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus debitis voluptatibus illum repellat! Corporis cumque voluptatem velit cupiditate libero, ex minus iusto modi at? Rem velit unde ipsa ex deleniti!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar4.jpg" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h5>Sarah Ali</h5>
+            <small>App Developer</small>
+          </div>
+          <div class="testimonial__Body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus debitis voluptatibus illum repellat! Corporis cumque voluptatem velit cupiditate libero, ex minus iusto modi at? Rem velit unde ipsa ex deleniti!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar5.jpg" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h5>Nancy</h5>
+            <small>UI/UX Designer</small>
+          </div>
+          <div class="testimonial__Body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus debitis voluptatibus illum repellat! Corporis cumque voluptatem velit cupiditate libero, ex minus iusto modi at? Rem velit unde ipsa ex deleniti!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar6.jpg" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h5>Clarck</h5>
+            <small>Game Designer</small>
+          </div>
+          <div class="testimonial__Body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus debitis voluptatibus illum repellat! Corporis cumque voluptatem velit cupiditate libero, ex minus iusto modi at? Rem velit unde ipsa ex deleniti!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar7.jpg" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h5>Justin Mia</h5>
+            <small>Web Developer</small>
+          </div>
+          <div class="testimonial__Body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus debitis voluptatibus illum repellat! Corporis cumque voluptatem velit cupiditate libero, ex minus iusto modi at? Rem velit unde ipsa ex deleniti!
+            </p>
+          </div>
+        </article>
+
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- Testiomonial End -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./JS/main.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+    </script>
   </body>
 </html>
