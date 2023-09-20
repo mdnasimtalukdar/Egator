@@ -148,7 +148,7 @@ header {
 /* Category Start */
 .categories {
   background: var(--color_bg1);
-  height: 46.4rem;
+  height: 51.2rem;
 }
 .categories h2 {
   line-height: 1;
@@ -196,14 +196,14 @@ header {
   background: var(--color_primary);
   padding: 1rem;
   border-radius: 1rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .category h5 {
   margin: 3.2rem 0 1.6rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .category p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 /* Category End */
 
@@ -263,10 +263,10 @@ header {
 }
 .faq p {
   font-size: 1.6rem;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   display: none;
 }
-.faq.open p{
+.faq.open p {
   display: block;
 }
 /* Faq End */
@@ -284,7 +284,8 @@ header {
   height: 9.6rem;
   border-radius: 50%;
   overflow: hidden;
-  margin: 0 auto 1.6rem;border: 1.6rem solid var(--color_bg1);
+  margin: 0 auto 1.6rem;
+  border: 1.6rem solid var(--color_bg1);
 }
 .testimonial__info {
   text-align: center;
@@ -306,10 +307,10 @@ header {
   content: "";
   display: block;
   background: linear-gradient(
-  135deg,
-  transparent, 
-  var(--color_primary),
-  var(--color_primary)
+    135deg,
+    transparent,
+    var(--color_primary),
+    var(--color_primary)
   );
   width: 4.8rem;
   height: 4.8rem;
@@ -318,5 +319,43 @@ header {
   top: -2.4rem;
   transform: rotate(45deg);
 }
-
 /* Testimonial End */
+/* Footer Start */
+footer {
+  background: var(--color_bg1);
+  padding-top: 8rem;
+  font-size: 1.4rem;
+}
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8rem;
+}
+.footer__container > div h4 {
+  margin-bottom: 1.8rem;
+}
+.footer__1 p {
+  margin: 0 0 3.2rem;
+}
+footer ul li {
+  margin-bottom: 1rem;
+
+}
+footer ul li a:hover {
+  text-decoration: underline;
+}
+.footer__social {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+.footer__social li a {
+  font-size: 2.5rem;
+}
+.footer__copyright {
+  text-align: center;
+  margin-top: 6.4rem;
+  padding: 2rem 0;
+  border-top: 1px solid  var(--color_bg2);
+}
+/* Footer End */
